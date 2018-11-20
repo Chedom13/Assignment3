@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 case PLUS  : op1 = op1 + op2; break;
                 case MOINS : op1 = op1 - op2; break;
                 case FOIS  : op1 = op1 * op2; break;
-                case DIV   : op1 = op1 * op2; break;
+                case DIV   : op1 = op1 / op2; break;
                 default : return; // do nothing if no operator
             }
 

@@ -26,4 +26,19 @@ public class DivisionTest {
         assertEquals(3, 9 / 3);
     }
 
+    @Test
+    public void division_isCorrect4() {
+        assertEquals(8, 16 / 2);
+    }
+
+    @Test
+    public void division_isCorrect5() {
+        assertEquals(7, 23 / 3);
+    }
+
+    @Test
+    public void division_isCorrect6() {
+        assertEquals(5, 15 / 3);
+    }
+
 }
